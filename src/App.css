@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family:serif;
+    font-size: 60px;
+}
+
+
+.card{
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 0 15px -5px ;
+   margin: 10%;
+   border-radius: 2%;  
+}
+ .image{
+     overflow: hidden;
+     height: 350px;
+     transform: scale(1.01);
+     opacity: 0.8;    
+ }
+ h3{
+     font-size: large;
+     padding-left: 2rem;
+ }
+
+ p{
+    font-size:small;
+    padding-left: 1rem;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 76px;
+  }
+  .image:hover {
+      transform: scale(1.03);
+      opacity: 1;
+    
+  }
+ @media screen and (max-width:800px){
+     .card{
+         width: 150px;
+}
+    .image{
+        height: 250px;
+       
+    } 
+    h3{
+        font-size: small;
+    }
+    p{
+        font-size: smaller;
+    }
+    .grid-container{
+        padding: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+ }
+ 
+
+
